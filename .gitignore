@@ -1,2 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets — never commit these
 .env
 config.yaml
+
+# Generated output artefacts (keep the directories, ignore their contents)
+output/audio/*
+output/transcripts/*
+output/posts/*
+!output/**/.gitkeep
+
+# OS / editor noise
+.DS_Store

@@ -1,0 +1,7 @@
+feedparser
+requests
+PyYAML
+beautifulsoup4
+rich
+python-dotenv
+python-slugify
