@@ -1,0 +1,23 @@
+podcast_feed_url: "https://esglesialagarriga.cat/podcast.xml"
+
+whisper:
+  conda_env: "whisper311"
+  model: "mlx-community/whisper-large-v3-mlx"
+  output_format: "txt"
+
+output:
+  audio_dir: "output/audio"
+  transcripts_dir: "output/transcripts"
+  posts_dir: "output/posts"
+
+seo:
+  site_name: "Església la Garriga"
+  default_author: "Església la Garriga"
+  tone: "warm, clear, pastoral, biblical, natural, and welcoming"
+  language: "ca"
+
+wordpress:
+  base_url: "https://esglesialagarriga.cat"
+  post_type: "esdeveniment"
+  update_mode: "append"
+  confirm_before_update: true
